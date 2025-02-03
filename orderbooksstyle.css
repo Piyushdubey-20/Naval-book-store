@@ -1,0 +1,414 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:	#000000;
+    overflow-x: hidden;
+    
+   
+ }
+
+
+
+.container{
+    background-color: black;
+    border-bottom: 2px solid  #ff4d00;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 1541px;
+    z-index: 999;
+    
+
+}
+    
+    
+.heading{
+    display:inline-block;
+    position:relative;
+    left:1vw;
+    font-size:2rem;
+    font-family: "Oswald", serif;
+    font-weight:100;
+    color: #FC4C02 ;
+}
+    
+
+
+    
+    
+
+ .navebar li{
+    list-style:none;
+    display:inline-block;
+    position:relative;
+    padding:5px;
+    font-family: "Oswald", serif;
+    flex-wrap: wrap;
+
+}
+    
+
+    
+
+ .navebar ul{
+    position:relative;
+    top: 2vh;
+    right:1vw;
+}
+    
+   
+
+.navebar a{
+
+    color: #FC4C02;
+    text-decoration: none;
+
+}
+.FR p{
+    text-align: center;
+    font-size: 10rem;
+    font-family: "Oswald", serif;
+    color: #FC4C02;
+    text-transform: uppercase;
+    position: relative;
+    top: 100px;
+}
+   
+
+
+.rows{
+    position: relative;
+    top: 100px;
+    display: grid;
+    justify-content: center;
+    gap: 20px 20px;
+    grid-template-columns: 300px 300px 300px 300px;
+}
+    
+.p1 img{
+    width: 250px;
+    border:2px solid #b46341;
+    border-radius: 1px;
+
+}
+.p2 img{
+    width: 259px;
+    position: relative;
+    right: 10px;
+    border:2px solid #b46341;
+    border-radius: 1px;
+
+}
+.p3 img{
+    width: 282px;
+    position: relative;
+    right: 15px;
+    border:2px solid #b46341;
+    border-radius: 1px;
+
+}
+.p4 img{
+    width: 301px;
+    border:2px solid #b46341;
+    border-radius: 1px;
+
+}
+
+.rows2{
+    position: relative;
+    top: 150px;
+    display: grid;
+    justify-content: center;
+    gap: 20px 20px;
+    grid-template-columns: 300px 300px 300px 300px;
+}
+.p5 img{
+    width: 250px;
+    height: 391px;
+    border:2px solid #b46341;
+    border-radius: 1px;
+
+}
+.p6 img{
+    width: 259px;
+    height: 392px;
+    position: relative;
+    right: 10px;
+    border:2px solid #b46341;
+    border-radius: 1px;
+
+}
+.p7 img{
+    width: 282px;
+    height: 392px;
+    position: relative;
+    right: 15px;
+    border:2px solid #b46341;
+    border-radius: 1px;
+
+}
+.p8 img{
+    width: 301px;
+    height:391px;
+    border:2px solid #b46341;
+    border-radius: 1px;
+
+}
+
+.rows3{
+    position: relative;
+    top: 200px;
+    display: grid;
+    justify-content: center;
+    gap: 20px 20px;
+    grid-template-columns: 300px 300px 300px 300px;
+}
+
+.p9 img{
+    width: 250px;
+    height: 391px;
+    border:2px solid #b46341;
+    border-radius: 1px;
+
+}
+.p10 img{
+    width: 259px;
+    height: 392px;
+    position: relative;
+    right: 10px;
+    border:2px solid #b46341;
+    border-radius: 1px;
+
+}
+.p11 img{
+    width: 282px;
+    height: 392px;
+    position: relative;
+    right: 15px;
+    border:2px solid #b46341;
+    border-radius: 1px;
+
+}
+.p12 img{
+    width: 301px;
+    height:391px;
+    border:2px solid #b46341;
+    border-radius: 1px;
+
+}
+.rows4{
+    position: relative;
+    top: 250px;
+    display: grid;
+    justify-content: center;
+    gap: 20px 20px;
+    grid-template-columns: 300px 300px 300px 300px;
+}
+
+.p13 img{
+    width: 250px;
+    height: 391px;
+    border:2px solid #b46341;
+    border-radius: 1px;
+
+}
+.p14 img{
+    width: 259px;
+    height: 392px;
+    position: relative;
+    right: 10px;
+    border:2px solid #b46341;
+    border-radius: 1px;
+
+}
+.p15 img{
+    width: 282px;
+    height: 392px;
+    position: relative;
+    right: 15px;
+    border:2px solid #b46341;
+    border-radius: 1px;
+
+}
+.p16 img{
+    width: 301px;
+    height:391px;
+    border:2px solid #b46341;
+    border-radius: 1px;
+
+}
+
+
+.order p
+{
+        text-align: center;
+        font-size: 7rem;
+        font-family: "Oswald", serif;
+        color: #FC4C02;
+        text-transform: uppercase;
+        position: relative;
+        top: 300px;
+    
+
+}
+
+.order-section{
+    position: relative;
+    top: 400px;
+    left: 443px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 600px;
+    border:2px solid #FC4C02;
+    border-radius:2px ;
+    padding:50px;
+
+    
+    
+    
+
+}
+
+
+.form0 label{
+    
+    font-family: "Oswald", serif;
+    font-size:20px;
+    color: #FC4C02;
+
+    
+}
+.form0 input{
+    margin-bottom: 30px;
+    width: 500px;
+    height: 50px;
+    background: transparent;
+    font-family: "Oswald", serif;
+    color: #FC4C02;
+    border: none;
+    border-bottom: 2px solid #FC4C02;
+
+
+
+}
+
+.form1 label{
+   
+    font-family: "Oswald", serif;
+    font-size:20px;
+    color: #FC4C02;
+
+
+}
+
+.form1 input{
+    margin-bottom: 30px;
+    width: 500px;
+    height: 50px;
+    background: transparent;
+    font-family: "Oswald", serif;
+    color: #FC4C02;
+    border: none;
+    border-bottom: 2px solid #FC4C02;
+    position: relative;
+    left: 4px;
+
+
+
+
+}
+.form2{
+    
+    font-family: "Oswald", serif;
+    font-size:20px;
+    color: #FC4C02;
+}
+.form2 input{
+    margin-bottom: 30px;
+    width: 500px;
+    height: 50px;
+    background: transparent;
+    font-family: "Oswald", serif;
+    color: #FC4C02;
+    border: none;
+    border-bottom: 2px solid #FC4C02;
+    position: relative;
+    left: 43px;
+
+
+
+
+}
+
+.form3{
+   
+    font-family: "Oswald", serif;
+    font-size:20px;
+    color: #FC4C02;
+
+}
+.form3 input{
+    margin-bottom: 30px;
+    width: 500px;
+    height: 50px;
+    background: transparent;
+    font-family: "Oswald", serif;
+    color: #FC4C02;
+    border: none;
+    border-bottom: 2px solid #FC4C02;
+    position: relative;
+    left: 25px;
+
+
+
+}
+
+.form4{
+  
+    font-family: "Oswald", serif;
+    font-size:20px;
+    color: #FC4C02;
+
+}
+.form4 input{
+    margin-bottom: 30px;
+    width: 500px;
+    height: 50px;
+    background: transparent;
+    font-family: "Oswald", serif;
+    color: #FC4C02;
+    border: none;
+    border-bottom: 2px solid #FC4C02;
+    position: relative;
+    left: 92px;
+}
+
+.btn button{
+    
+    font-family: "Oswald", serif;
+    font-size:20px;
+    height: 40px;
+    position: relative;
+    left: 65px;
+    width: 500px;
+    border: none;
+    border-radius: 2px;
+    background-color:  #FC4C02;
+    margin: 30px;
+    
+}
+.end{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #FC4C02;
+    text-align: center;
+}
+
+
