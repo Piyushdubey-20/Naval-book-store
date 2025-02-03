@@ -1,0 +1,239 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:	#000000;
+    overflow-x: hidden;
+    
+   
+ }
+
+
+
+.container{
+    background-color: black;
+    border-bottom: 2px solid  #ff4d00;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 1541px;
+    z-index: 999;
+    
+
+}
+    
+    
+.heading{
+    display:inline-block;
+    position:relative;
+    left:1vw;
+    font-size:2rem;
+    font-family: "Oswald", serif;
+    font-weight:100;
+    color: #FC4C02 ;
+}
+    
+
+
+    
+    
+
+ .navebar li{
+    list-style:none;
+    display:inline-block;
+    position:relative;
+    padding:5px;
+    font-family: "Oswald", serif;
+    flex-wrap: wrap;
+
+}
+    
+
+    
+
+ .navebar ul{
+    position:relative;
+    top: 2vh;
+    right:1vw;
+}
+    
+   
+
+.navebar a{
+
+    color: #FC4C02;
+    text-decoration: none;
+}
+
+.H1{
+    text-align: center;
+    color: #FC4C02;
+    font-family: "Oswald", serif;
+    font-size: 9rem;
+    text-transform: uppercase;
+
+}
+.form{
+    width: 700px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    border:2px solid #FC4C02;
+    position: relative;
+    left: 383px;
+    padding: 50px;
+
+}
+
+.F1 label{
+    font-family: "Oswald", serif;
+    color: #FC4C02;
+    
+}
+.F1 input{
+    margin-bottom: 30px;
+    width: 500px;
+    height: 50px;
+    background: transparent;
+    font-family: "Oswald", serif;
+    color: #FC4C02;
+    border: none;
+    border-bottom: 2px solid #FC4C02;
+    position: relative;
+    left: 90px;
+
+}   
+
+.F2 label{
+    font-family: "Oswald", serif;
+    color: #FC4C02;
+    
+}
+.F2 input{
+    margin-bottom: 30px;
+    width: 500px;
+    height: 50px;
+    background: transparent;
+    font-family: "Oswald", serif;
+    color: #FC4C02;
+    border: none;
+    border-bottom: 2px solid #FC4C02;
+    position: relative;
+    left: 122px;
+
+
+}   
+
+.F3 label{
+    font-family: "Oswald", serif;
+    color: #FC4C02;
+    
+}
+.F3 input{
+    margin-bottom: 30px;
+    width: 500px;
+    height: 50px;
+    background: transparent;
+    font-family: "Oswald", serif;
+    color: #FC4C02;
+    border: none;
+    border-bottom: 2px solid #FC4C02;
+    position: relative;
+    left: 38px;
+
+}   
+
+.F4 label{
+    font-family: "Oswald", serif;
+    color: #FC4C02;
+    
+}
+.F4 input{
+    margin-bottom: 30px;
+    width: 500px;
+    height: 50px;
+    background: transparent;
+    font-family: "Oswald", serif;
+    color: #FC4C02;
+    border: none;
+    border-bottom: 2px solid #FC4C02;
+    position: relative;
+    left: 2px;
+
+}   
+
+.F5 label{
+    font-family: "Oswald", serif;
+    color: #FC4C02;
+    
+}
+.F5 input{
+    margin-bottom: 30px;
+    width: 500px;
+    height: 50px;
+    background: transparent;
+    font-family: "Oswald", serif;
+    color: #FC4C02;
+    border: none;
+    border-bottom: 2px solid #FC4C02;
+    position: relative;
+    left: 121px;
+
+}   
+
+.F6 label{
+    font-family: "Oswald", serif;
+    color: #FC4C02;
+    
+}
+.F6 input{
+    margin-bottom: 30px;
+    width: 500px;
+    height: 50px;
+    background: transparent;
+    font-family: "Oswald", serif;
+    color: #FC4C02;
+    border: none;
+    border-bottom: 2px solid #FC4C02;
+    position: relative;
+    left: 60px;
+
+
+}   
+
+.btn button{
+    
+    font-family: "Oswald", serif;
+    font-size:20px;
+    height: 40px;
+    position: relative;
+    left: 65px;
+    width: 500px;
+    border: none;
+    border-radius: 2px;
+    background-color:  #FC4C02;
+    margin: 20px;
+}
+.btn1 button{
+    
+    font-family: "Oswald", serif;
+    font-size:20px;
+    height: 40px;
+    position: relative;
+    left: 65px;
+    width: 500px;
+    border: none;
+    border-radius: 2px;
+    background-color:  #FC4C02;
+    margin: 20px;
+}
+.end{
+    height: 103px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #FC4C02;
+    text-align: center;
+}
